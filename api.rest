@@ -1,0 +1,5 @@
+#testing the cooktime route 
+GET http://localhost:3000/cooktime?day=22&ingredients=Meat,Cumin,Tomatoe  HTTP/1.1
+###
+#testing the cooktime route
+GET http://localhost:3000/suggest?day=22  HTTP/1.1
