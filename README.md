@@ -12,7 +12,7 @@ git clone https://github.com/Mootaz12/ramadan-dish-api.git
 
 deno task dev
 
-Execute ' deno task dev ' to run the API locally. Refer to the deno.json file's 'dev' script, allowing essential permissions for smooth execution.
+Execute '  deno task dev  ' to run the API locally. Refer to the deno.json file's 'dev' script, allowing essential permissions for smooth execution.
 
 ## API Endpoints:
 
@@ -32,8 +32,18 @@ Fetches a random suggested dish based on the specified Ramadan day. This endpoin
 
 curl -X GET 'http://localhost:3000/suggest?day=15'
 
-### Test the API Endpoints Using api.rest
 
+### Test the API Endpoints Using api.rest
 Additionally, you can test the API endpoints directly using an api.rest file with compatible REST Client extensions in your preferred code editor.
 
+
+### API Integration: Aladhan Prayer Times
+
+This project utilizes the Aladhan Prayer Times API to retrieve accurate data regarding Ramadan timings. The Aladhan API offers comprehensive information on prayer times.
+https://aladhan.com/prayer-times-api
+
+
 Feel free to modify or structure it according to your preferences!
+
+
+
